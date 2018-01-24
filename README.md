@@ -10,4 +10,4 @@ npm install react-chatbot
 
 ## Docs
 
-[Component Documentation]()
+[Component Documentation](https://abhiisheek.github.io/react-chatbot)

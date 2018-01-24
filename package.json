@@ -9,8 +9,15 @@
     "name": "Abhishek Ramesh",
     "email": "abhiisheek@hotmail.com"
   },
-  "keywords": ["chatbot", "react", "components", "react-components"],
-  "files": ["lib"],
+  "keywords": [
+    "chatbot",
+    "react",
+    "components",
+    "react-components"
+  ],
+  "files": [
+    "lib"
+  ],
   "private": true,
   "dependencies": {
     "@amcharts/amcharts3-react": "^3.0.3",
@@ -51,7 +58,7 @@
     "extract-text-webpack-plugin": "^3.0.1",
     "file-loader": "0.11.2",
     "fs-extra": "3.0.1",
-    "gh-pages": "^1.0.0",
+    "gh-pages": "^1.1.0",
     "highlight.js": "^9.12.0",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
@@ -81,18 +88,16 @@
     "gen:docs-watch": "npm run gen:docs -- --watch",
     "build:docs": "node scripts/build.js",
     "build:css": "cpx \"./src/components/**/*.css\" ./lib",
-    "build:commonjs":
-      "cross-env NODE_ENV=production babel ./src/components --out-dir ./lib --ignore spec.js",
+    "build:commonjs": "cross-env NODE_ENV=production babel ./src/components --out-dir ./lib --ignore spec.js",
     "build:copy-files": "node scripts/copyFilesForPubBuild.js",
     "prebuild:lib": "rimraf lib",
-    "build:lib":
-      "npm-run-all --parallel build:commonjs build:css build:copy-files",
+    "build:lib": "npm-run-all --parallel build:commonjs build:css build:copy-files",
     "predeploy:docs": "npm run build:docs",
     "deploy:docs": "gh-pages -d build",
     "test": "jest --coverage -u",
     "test:watch": "jest --watch --coverage"
   },
-  "homepage": "https://github.com/react-chatbot",
+  "homepage": "https://abhiisheek.github.io/react-chatbot",
   "jest": {
     "collectCoverageFrom": [
       "!src/components/**/index.{js,jsx}",
@@ -112,11 +117,20 @@
       "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
       "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
     },
-    "transformIgnorePatterns": ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"],
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+    ],
     "moduleNameMapper": {
       "^.+\\.css$": "identity-obj-proxy"
     },
-    "moduleFileExtensions": ["web.js", "js", "json", "web.jsx", "jsx", "node"],
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "json",
+      "web.jsx",
+      "jsx",
+      "node"
+    ],
     "coverageThreshold": {
       "global": {
         "branches": 0,
@@ -125,7 +139,11 @@
         "statements": 0
       }
     },
-    "coverageReporters": ["cobertura", "text", "html"]
+    "coverageReporters": [
+      "cobertura",
+      "text",
+      "html"
+    ]
   },
   "babel": {
     "presets": [
