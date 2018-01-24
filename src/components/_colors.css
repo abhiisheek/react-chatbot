@@ -1,0 +1,20 @@
+:root {
+  --border-color: lightgray;
+  --msg-shadow-color: #eeeeee;
+  --text-color: #000000;
+  --timestamp-text-color: var(--text-color);
+  --msg-arrow-edge-color: var(--border-color);
+  --self-msg-bg-color: #ffffff;
+  --bot-msg-bg-color: #209bfd;
+  --self-msg-border-color: var(--self-msg-bg-color);
+  --bot-msg-border-color: var(--bot-msg-bg-color);
+  --self-msg-arrow-edge-color: var(--self-msg-bg-color);
+  --self-msg-text-color: #000000;
+  --bot-msg-text-color: #ffffff;
+  --send-btn-icon-color: #ffffff;
+  --send-btn-bg-color: #006cce;
+  --header-color: #0879c9;
+  --header-text-color: #ffffff;
+  --link-text-color: #ffe504;
+  --link-text-hover-color: #febf00;
+}

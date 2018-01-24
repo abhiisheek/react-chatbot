@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withHyperLink Snapshot test 1`] = `
+<div>
+  <div>
+    Help documentation link
+  </div>
+  <a
+    href="http://help.test.com"
+    target="_blank"
+  >
+    http://help.test.com
+  </a>
+</div>
+`;

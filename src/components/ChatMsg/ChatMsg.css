@@ -1,0 +1,42 @@
+@import '../_colors.css';
+@import '../_defaults.css';
+
+.msg {
+  display: flex;
+}
+
+.selfMsg {
+  justify-content: flex-end;
+}
+
+.selfWrapper {
+  text-align: right;
+}
+
+.chatMsgWrapper {
+  padding-bottom: 5px;
+}
+
+.selfMsgWrapper {
+  @apply --self-msg-wrapper;
+}
+
+.chart {
+  width: 100%;
+}
+
+/* .selfMsgWrapper:before {
+  @apply --msg-arrow-edge;
+  right: -14px;
+  border-left-color: var(--self-msg-arrow-edge-color);
+} */
+
+.botMsgWrapper {
+  @apply --bot-msg-wrapper;
+}
+
+/* .botMsgWrapper:before {
+  @apply --msg-arrow-edge;
+  left: -14px;
+  border-right-color: var(--msg-arrow-edge-color);
+} */

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInputForm Snapshot test 1`] = `
+<div
+  className="wrapper"
+>
+  <input
+    className="textInput"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Type here . . ."
+    type="text"
+    value=""
+  />
+  <button
+    className="sendBtn disabled"
+    disabled={true}
+    onClick={[Function]}
+  >
+    <div
+      className="upArrow"
+    />
+  </button>
+</div>
+`;

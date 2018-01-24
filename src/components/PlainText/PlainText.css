@@ -1,0 +1,6 @@
+@import '../_colors.css';
+@import '../_variables.css';
+
+.wrapper {
+  font-size: var(--font-size-tiny);
+}

@@ -1,0 +1,31 @@
+:root {
+  --unit: 10px;
+
+  --preferred-font: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --font-size: calc(1.6 * var(--unit));
+  --font-size-very-tiny: calc(1.0 * var(--unit));
+  --font-size-tiny: calc(1.2 * var(--unit));
+  --font-size-small: calc(1.4 * var(--unit));
+  --font-size-normal: var(--font-size);
+  --font-size-big: calc(1.8 * var(--unit));
+  --font-weight-thin: 300;
+  --font-weight-normal: 400;
+  --font-weight-semi-bold: 500;
+  --font-weight-bold: 700;
+
+  --avatar-icon-height: 30px;
+  --avatar-icon-width: 30px;
+
+  --shadow-2p: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+  --shadow-3p: 0 3px 4px 0 rgba(0, 0, 0, 0.14),
+    0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+
+  --send-btn-size: 20px;
+
+  --header-size: 40px;
+
+  --self-msg-wrapper-border-radius: 20px 2px 20px 20px;
+  --bot-msg-wrapper-border-radius: 2px 20px 20px;
+}

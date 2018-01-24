@@ -1,0 +1,10 @@
+.container {
+  position: fixed;
+  width: 100%;
+  height: calc(100% - 60px);
+}
+
+.scroll_view {
+  height: 100%;
+  overflow-y: auto;
+}

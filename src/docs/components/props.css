@@ -1,0 +1,10 @@
+th, td {
+  text-align: left;
+  padding: 10px;  
+}
+
+.code {
+  background-color: #eeeeee;
+  font-size: 16px;
+  padding: 2px;
+}

@@ -1,0 +1,30 @@
+@import '../_variables.css';
+
+.card {
+  border: 1px solid black;
+  display: flex;
+  min-width: 80px;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: var(--shadow-3p);
+  box-sizing: border-box;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.icon {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: -20px;
+  z-index: 100;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

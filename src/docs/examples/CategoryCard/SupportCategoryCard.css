@@ -1,0 +1,17 @@
+.supportCard {
+  width: 150px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.12),
+    0 0 2px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 2px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.icon {
+  background-image: url('./faq_icon.png');
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 55px;
+  width: 55px;
+}

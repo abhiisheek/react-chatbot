@@ -1,0 +1,38 @@
+.wrapper {
+  padding: 10px;
+  background-color: #eeeeee;
+  box-shadow: 1px 1px 2px 1px rgba(170, 170, 170, 0.6);
+  margin-bottom: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showCode {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c5c5c5;
+}
+
+.codeIcon {
+  fill: #777777;
+  height: 20px;
+  width: 20px;
+}
+
+.expDemoWrapper {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid lightgrey;
+}

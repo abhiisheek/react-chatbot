@@ -1,0 +1,27 @@
+.wrapper {
+  height: 60px;
+    background-color: rgb(13, 71, 161);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-size: 22px;
+}
+
+.nav_item {
+  list-style: none;
+}
+
+.nav_achor {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.banner {
+  font-size: 22px;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;  
+}

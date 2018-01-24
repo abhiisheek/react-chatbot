@@ -1,0 +1,41 @@
+@import '../_variables.css';
+@import '../_colors.css';
+@import '../_defaults.css';
+
+.header {
+  @apply --chat-win-header;
+  font-family: var(--preferred-font);
+  cursor: pointer;
+}
+
+.minimiseIcon {
+  @apply --chat-win-header-minimise-icon;
+  cursor: pointer;
+}
+
+.strechIcon {
+  @apply --chat-win-header-strech-icon;
+  cursor: pointer;
+}
+
+.restoreIcon {
+  @apply --chat-win-header-restore-icon;
+  cursor: pointer;
+}
+
+.hideStretchIcon {
+  display: none;
+}
+
+.backIcon {
+  @apply --chat-win-header-back-icon;
+  cursor: pointer;
+}
+
+.hideIcon {
+  display: none;
+}
+
+.defaultCursor {
+  cursor: default;
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextWithLink Snapshot test 1`] = `
+<div>
+  <div
+    className="textMsg wrapper"
+  >
+    Help doc
+  </div>
+  <a
+    href="http://help.docs"
+    target="_blank"
+  >
+    http://help.docs
+  </a>
+</div>
+`;

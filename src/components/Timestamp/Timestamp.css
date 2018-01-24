@@ -1,0 +1,8 @@
+@import '../_variables.css';
+@import '../_colors.css';
+
+.timestamp {
+  font-size: var(--font-size-very-tiny);
+  color: var(--timestamp-text-color);
+  padding: 3px 0;
+}

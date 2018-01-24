@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatMsg Snapshot test 1`] = `
+<div
+  className="chatMsgWrapper selfWrapper"
+>
+  <div
+    className="msg selfMsg"
+  >
+    <div
+      className="chatMsgWrapper selfMsgWrapper"
+    >
+      <div
+        className="textMsg wrapper"
+      >
+        Hello
+      </div>
+    </div>
+  </div>
+  <div
+    className="timestamp"
+  >
+    10:11 PM
+  </div>
+</div>
+`;

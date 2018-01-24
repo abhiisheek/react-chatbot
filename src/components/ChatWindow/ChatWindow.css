@@ -1,0 +1,41 @@
+@import '../_variables.css';
+
+.chat {
+  font-family: var(--preferred-font);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chatMsgsContainer {
+  overflow: auto;
+  position: relative;
+  margin-bottom: 5px;
+  padding: 6px;
+}
+
+.chatWrapper {
+  height: calc(100% - var(--header-size));
+}
+
+.docked {
+  display: none;
+}
+
+.wismoIcon::before {
+  content: 'WIS';
+}
+
+.categoriesWrapper {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.categoryCard {
+  width: 25%;
+  margin: 1px 1px 40px 1px;
+}

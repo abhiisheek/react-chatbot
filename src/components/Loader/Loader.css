@@ -1,0 +1,26 @@
+.loaderIcon {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  animation: typing 1s linear infinite alternate;
+}
+
+@keyframes typing {
+  0% {
+    background-color: #9d9d9d;
+    box-shadow: 12px 0px 0px 0px #999, 24px 0px 0px 0px #777;
+  }
+  25% {
+    background-color: #999;
+    box-shadow: 12px 0px 0px 0px #9d9d9d, 24px 0px 0px 0px #999;
+  }
+  75% {
+    background-color: #777;
+    box-shadow: 12px 0px 0px 0px #999, 24px 0px 0px 0px #9d9d9d;
+  }
+}
+
+.right {
+  right: 30px;
+}

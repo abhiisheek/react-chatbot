@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatMsgWrapper Snapshot test 1`] = `
+<div
+  className="chatMsgWrapper"
+>
+  <div>
+    hi
+  </div>
+</div>
+`;

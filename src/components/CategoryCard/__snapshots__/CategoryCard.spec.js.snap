@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryCard Snapshot test 1`] = `
+<div
+  className="card"
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "white",
+      "borderColor": "white",
+      "color": "black",
+    }
+  }
+>
+  <div
+    className="icon wismo_icon"
+    style={
+      Object {
+        "borderColor": "white",
+        "color": "orange",
+      }
+    }
+  />
+  <div
+    className="title"
+  >
+    WISMO
+  </div>
+</div>
+`;

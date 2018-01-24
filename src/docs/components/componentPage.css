@@ -1,0 +1,7 @@
+.wrapper {
+  display: inline-block;
+  margin-left: 10px;
+  color: #333333;
+  width: calc(100% - 265px);
+  margin-right: 5px;
+}

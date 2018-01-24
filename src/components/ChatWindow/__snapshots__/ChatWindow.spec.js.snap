@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatWindow Snapshot test, when categories are shown 1`] = `
+<div
+  className="chatWrapper"
+>
+  <div
+    className="header"
+    onClick={[Function]}
+  >
+    <div
+      className="backIcon hideIcon"
+      onClick={[Function]}
+    >
+      ←
+    </div>
+    Chat bot
+    <div
+      className="minimiseIcon hideIcon"
+      onClick={[Function]}
+    >
+      –
+    </div>
+    <div
+      className="strechIcon hideIcon"
+      onClick={[Function]}
+    >
+      ✠
+    </div>
+    <div
+      className="restoreIcon hideIcon"
+      onClick={[Function]}
+    >
+      ❐
+    </div>
+  </div>
+  <div
+    className="categoriesWrapper"
+  >
+    <div
+      className="categoryCard categoryCard card"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#1397f0",
+          "borderColor": "#1397f0",
+          "color": "#ffffff",
+        }
+      }
+    >
+      <div
+        className="icon analytics_icon"
+        style={
+          Object {
+            "borderColor": "#1397f0",
+            "color": "",
+          }
+        }
+      />
+      <div
+        className="title"
+      >
+        Analytics Data
+      </div>
+    </div>
+    <div
+      className="categoryCard categoryCard card"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#f47321",
+          "borderColor": "#f47321",
+          "color": "#ffffff",
+        }
+      }
+    >
+      <div
+        className="icon faq_icon"
+        style={
+          Object {
+            "borderColor": "#f47321",
+            "color": "",
+          }
+        }
+      />
+      <div
+        className="title"
+      >
+        Customer Support Related
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ChatWindow Snapshot test, when messages are shown 1`] = `
+<div
+  className="chatWrapper"
+>
+  <div
+    className="header"
+    onClick={[Function]}
+  >
+    <div
+      className="backIcon hideIcon"
+      onClick={[Function]}
+    >
+      ←
+    </div>
+    Chat bot
+    <div
+      className="minimiseIcon hideIcon"
+      onClick={[Function]}
+    >
+      –
+    </div>
+    <div
+      className="strechIcon hideIcon"
+      onClick={[Function]}
+    >
+      ✠
+    </div>
+    <div
+      className="restoreIcon hideIcon"
+      onClick={[Function]}
+    >
+      ❐
+    </div>
+  </div>
+  <div
+    className="categoriesWrapper"
+  />
+</div>
+`;

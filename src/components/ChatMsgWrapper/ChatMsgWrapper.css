@@ -1,0 +1,23 @@
+@import '../_colors.css';
+@import '../_variables.css';
+
+.chatMsgWrapper {
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  padding: 10px 10px;
+  margin: 0 5px;
+  max-width: 75%;
+  box-shadow: var(--shadow-2p);
+  word-wrap: break-word;
+}
+
+.chatMsgWrapper a {
+  color: var(--link-text-color);
+  font-size: var(--font-size-tiny);
+}
+
+.chatMsgWrapper a:hover {
+  color: var(--link-text-hover-color);
+  text-decoration: none;
+}

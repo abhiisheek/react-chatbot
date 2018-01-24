@@ -1,0 +1,85 @@
+@import './_variables.css';
+@import './_colors.css';
+
+:root {
+  --msg-arrow-edge: {
+    position: absolute;
+    content: '';
+    top: 4px;
+    border: 7px solid transparent;
+  }
+
+  --send-btn-icon: {
+    content: '\2191';
+    width: var(--send-btn-size);
+    height: var(--send-btn-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--send-btn-icon-color);
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: calc(var(--send-btn-size) / 2);
+    background: var(--send-btn-bg-color);
+  }
+
+  --disabled-btn: {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  --chat-win-header: {
+    height: var(--header-size);
+    background-color: var(--header-color);
+    color: var(--header-text-color);
+    text-align: center;
+    line-height: var(--header-size);
+    font-weight: 600;
+  }
+
+  --chat-win-header-minimise-icon: {
+    font-size: 18px;
+    float: right;
+    margin-right: 7px;
+    color: var(--header-text-color);
+    display: inline-block;
+  }
+
+  --chat-win-header-strech-icon: {
+    font-size: 18px;
+    float: right;
+    margin-right: 7px;
+    color: var(--header-text-color);
+    display: inline-block;
+  }
+
+  --chat-win-header-restore-icon: {
+    font-size: 14px;
+    float: right;
+    margin-right: 7px;
+    color: var(--header-text-color);
+    display: inline-block;
+  }
+
+  --chat-win-header-back-icon: {
+    font-size: 18px;
+    color: var(--header-text-color);
+    display: inline-block;
+    float: left;
+    margin-left: 7px;
+  }
+
+  --self-msg-wrapper {
+    background: var(--self-msg-bg-color);
+    color: var(--self-msg-text-color);
+    border-color: var(--self-msg-border-color);
+    border-radius: var(--self-msg-wrapper-border-radius);
+  }
+
+  --bot-msg-wrapper {
+    background-color: var(--bot-msg-bg-color);
+    border-radius: var(--bot-msg-wrapper-border-radius);
+    color: var(--bot-msg-text-color);
+    border-color: var(--bot-msg-border-color);
+  }
+}

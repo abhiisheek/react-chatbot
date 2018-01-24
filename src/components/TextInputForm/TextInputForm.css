@@ -1,0 +1,46 @@
+@import '../_variables.css';
+@import '../_colors.css';
+@import '../_defaults.css';
+
+.wrapper {
+  border-top: 2px solid var(--border-color);
+  padding: 10px;
+  min-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.textInput {
+  width: calc(100% - var(--send-btn-size));
+  border: none;
+  background-color: inherit;
+}
+
+.textInput:focus {
+  outline: none;
+}
+
+.sendBtn {
+  padding: 0px;
+  border: none;
+  background: transparent;
+}
+
+.sendBtn:focus {
+  outline: none;
+}
+
+.upArrow::before {
+  @apply --send-btn-icon;
+}
+
+.sendBtn:hover {
+  cursor: pointer;
+}
+
+.disabled, 
+.disabled:hover {
+  @apply --disabled-btn;
+}

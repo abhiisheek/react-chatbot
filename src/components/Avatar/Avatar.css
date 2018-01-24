@@ -1,0 +1,12 @@
+@import '../_colors.css';
+@import '../_variables.css';
+
+.icon {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  height: var(--avatar-icon-height);
+  width: var(--avatar-icon-width);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
